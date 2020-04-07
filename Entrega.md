@@ -2,7 +2,11 @@
 
 Nome: Emílio B. Pedrollo
 
-### Exemplo de saída:
+### Como obter
+
+Os binários do software (tanto para linux quanto para windows) estão disponíveis na aba [releases](https://github.com/elc139/t3-emiliopedrollo/releases)
+
+### Exemplo de saída
 ```
 Each thread should add its char to the array n times (n=20)
 
