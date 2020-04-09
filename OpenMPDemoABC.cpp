@@ -21,8 +21,10 @@ public:
 
     void addChar(char c) {
         #pragma omp critical
-        array[index++] = c;
-        spendSomeTime();
+        {
+            array[index++] = c;
+            spendSomeTime();
+        }
     }
 
     int countOccurrences(char c) {
@@ -91,8 +93,8 @@ int main() {
     m1.fillArrayConcurrently();
     m1.printStats();
 
-    std::cout << "Case 1.b: static with chunk of 2" << std::endl;
-    ArrayFiller m2(omp_sched_static, 2);
+    std::cout << "Case 1.b: static with chunk of 3" << std::endl;
+    ArrayFiller m2(omp_sched_static, 3);
     m2.fillArrayConcurrently();
     m2.printStats();
 
