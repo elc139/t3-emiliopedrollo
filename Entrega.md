@@ -4,7 +4,7 @@ Nome: Emílio B. Pedrollo
 
 ### Como obter
 
-Os binários do software (tanto para linux quanto para windows) estão disponíveis na aba [releases](https://github.com/elc139/t3-emiliopedrollo/releases)
+Os binários do software (tanto para linux quanto para windows) estão disponíveis na aba [releases]
 
 ### Exemplo de saída
 ```
@@ -159,3 +159,5 @@ de escalonamento.
  * http://jakascorner.com/blog/2016/06/omp-for-scheduling.html
  * https://www.openmp.org/wp-content/uploads/SC17-Kale-LoopSchedforOMP_BoothTalk.pdf
  * https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+ 
+ [releases]: https://github.com/elc139/t3-emiliopedrollo/releases/latest
